@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- coloumns -->
+    <div class="container pt-5">
+        <h1 class="text-center">Columns</h1>
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">Text 1 </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">Text 2 </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">Text 3 </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">Text 4 </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">Text 5 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- paragraph -->
+    <div class="container pt-5">
+        <h1 class="text-center">Paragraph with container(max-width)</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum, quos placeat ea magni suscipit
+        reprehenderit temporibus nulla sunt? Incidunt hic blanditiis fugit perspiciatis voluptates assumenda excepturi
+        quisquam quidem, facere doloribus similique cumque suscipit optio id porro tenetur numquam magnam earum neque ab
+        iste expedita nostrum. Facilis totam ea, qui distinctio nemo consequuntur impedit, libero quis earum laborum
+        voluptas, voluptate inventore alias quaerat tempora minus? Deserunt aperiam architecto, earum assumenda
+        recusandae impedit cum nobis in sunt libero accusamus, ullam nisi aut iure, vitae sed voluptas tempora quas esse
+        suscipit. Placeat reprehenderit incidunt impedit, et reiciendis molestiae quis doloremque! Pariatur, deleniti!
+
+    </div>
+    <div class="container-md">
+        <h1 class="text-center">Paragraph with specific breakpoint(100%-width)</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum, quos placeat ea magni suscipit
+        reprehenderit temporibus nulla sunt? Incidunt hic blanditiis fugit perspiciatis voluptates assumenda excepturi
+        quisquam quidem, facere doloribus similique cumque suscipit optio id porro tenetur numquam magnam earum neque ab
+        iste expedita nostrum. Facilis totam ea, qui distinctio nemo consequuntur impedit, libero quis earum laborum
+        voluptas, voluptate inventore alias quaerat tempora minus? Deserunt aperiam architecto, earum assumenda
+        recusandae impedit cum nobis in sunt libero accusamus, ullam nisi aut iure, vitae sed voluptas tempora quas esse
+        suscipit. Placeat reprehenderit incidunt impedit, et reiciendis molestiae quis doloremque! Pariatur, deleniti!
+
+    </div>
+    <div class="container-fluid">
+        <h1 class="text-center">Paragraph with all breakpoints(100%-width)</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum, quos placeat ea magni suscipit
+        reprehenderit temporibus nulla sunt? Incidunt hic blanditiis fugit perspiciatis voluptates assumenda excepturi
+        quisquam quidem, facere doloribus similique cumque suscipit optio id porro tenetur numquam magnam earum neque ab
+        iste expedita nostrum. Facilis totam ea, qui distinctio nemo consequuntur impedit, libero quis earum laborum
+        voluptas, voluptate inventore alias quaerat tempora minus? Deserunt aperiam architecto, earum assumenda
+        recusandae impedit cum nobis in sunt libero accusamus, ullam nisi aut iure, vitae sed voluptas tempora quas esse
+        suscipit. Placeat reprehenderit incidunt impedit, et reiciendis molestiae quis doloremque! Pariatur, deleniti!
+
+    </div>
+
+    <!-- table -->
+    <div class="container pt-5">
+        <h1 class="text-center hover-zoom">Table</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-primary">
+                    <th>Name </th>
+                    <th>Age </th>
+                    <th>Gender </th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr class="table-secondary">
+                    <td>Ali</td>
+                    <td>40</td>
+                    <td>Male</td>
+                </tr>
+
+                <tr class="table-danger">
+                    <td>Hammad</td>
+                    <td>30</td>
+                    <td>Male</td>
+                </tr>
+
+                <tr class="table-dark">
+                    <td>Qaiser</td>
+                    <td>34</td>
+                    <td>Male</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Qaiser</td>
+                    <td>34</td>
+                    <td>Male</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Qaiser</td>
+                    <td>34</td>
+                    <td>Male</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Qaiser</td>
+                    <td>34</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <!-- form -->
+    <div class="container pt-5">
+        <h1 class="text-center">Form</h1>
+        <form action="" class="form-control">
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label for="phone" class="form-label">Ph#</label>
+                    <input type="number" id="phone" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="password" class="form-label">Passowrd</label>
+                    <input type="password" id="password" class="form-control" required>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label for="color" class="form-label">Color</label>
+                    <input type="color" id="color" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="range" class="form-label">Range</label>
+                    <input type="range" id="range" class="form-control" required>
+                </div>
+            </div>
+
+            <label for="select" class="form-label">Option</label>
+            <select class="form-select" id="select">
+                <option name="" id="">1</option>
+                <option name="" id="">2</option>
+                <option name="" id="">3</option>
+                <option name="" id="">4</option>
+            </select>
+
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <div class="form-check">
+                        <label for="checkbox" class="form-label">Checkbox</label>
+                        <input type="checkbox" id="checkbox" class="form-check-input">
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+
+                    <div class="form-check form-switch">
+                        <label for="switch" class="form-label">Checkbox-Switch</label>
+                        <input type="checkbox" id="switch" class="form-check-input">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <label for="amount">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="amount" class="form-control">
+                <div class="input-group-text">.00</div>
+            </div>
+
+            <div class="form-floating ">
+                <input type="text" id="floating" class="form-control" placeholder="Enter your email">
+                <label for="floating">Floating Text</label>
+            </div>
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control is-valid" required>
+
+            <div class="mb-3 pt-3">
+                <label for="formFile" class="form-label">Single File</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Multiple Files</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="mb-3">
+                <label for="formFileDisabled" class="form-label">Disabled File</label>
+                <input class="form-control" type="file" id="formFileDisabled" disabled>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+
+            <div class="d-grid col-3 mx-auto pt-3">
+                <button class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- buttons -->
+    <div class="container pt-5">
+        <h1 class="text-center">Buttons</h1>
+
+        <div class="container pt-3">
+            <h5>Simple buttons:</h5>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+
+        </div>
+
+        <div class="container pt-3">
+            <h5>Outline buttons:</h5>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+
+        </div>
+
+        <div class="container pt-2">
+            <h5>Sizes buttons:</h5>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+        </div>
+
+        <div class="container pt-2">
+            <h5>Disabled buttons:</h5>
+            <button type="button" class="btn  btn-primary" disabled>Primary button</button>
+            <button type="button" class="btn btn-secondary " disabled>Button</button>
+            <button type="button" class="btn  btn-outline-primary" disabled>Primary Outline button</button>
+            <button type="button" class="btn btn-outline-secondary " disabled>Secondary Outline Button</button>
+        </div>
+
+        <div class="container pt-2">
+            <h5>Block buttons:</h5>
+            <h6 class="text-center">Full block</h6>
+            <div class="d-grid gap-2 pt-3">
+                <button class="btn btn-secondary" type="button">Button</button>
+                <button class="btn btn-success" type="button">Button</button>
+            </div>
+
+            <h6 class="text-center pt-5">Medium block</h6>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+            </div>
+
+            <h6 class="text-center pt-5">COL-6 block</h6>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+            </div>
+
+            <h5>Toggle States:</h5>
+            <button type="button" class="btn btn-dark" data-bs-toggle="button">Toggle button</button>
+            <button type="button" class="btn btn-dark active" data-bs-toggle="button" aria-pressed="true">Active toggle
+                button</button>
+            <button type="button" class="btn btn-dark" disabled data-bs-toggle="button">Disabled toggle button</button>
+        </div>
+    </div>
+
+    <!-- grid system -->
+    <div class="container pt-5">
+        <h1 class="text-center">Grid System</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col  p-3 mb-2 bg-warning text-dark"> Column </div>
+                <div class="col p-3 mb-2 bg-success text-dark"> Column </div>
+                <div class="col p-3 mb-2 bg-secondary text-dark"> Column </div>
+            </div>
+        </div>
+
+        <h5 class="pt-3">Auto Equal width:</h5>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col p-3 mb-2 bg-warning text-dark">
+                    coloumn 1
+                </div>
+                <div class="col p-3 mb-2 bg-success text-dark">
+                    column 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col p-3 mb-2 bg-primary text-dark">
+                    column 1
+                </div>
+                <div class="col p-3 mb-2 bg-secondary text-dark">
+                    column 2
+                </div>
+                <div class="col p-3 mb-2 bg-danger text-dark">
+                    column 3
+                </div>
+            </div>
+        </div>
+
+
+        <h5 class="pt-3">Setting custom coloumn width:</h5>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3 p-3 mb-2 bg-warning text-dark">
+                    coloumn 1
+                </div>
+                <div class="col-9 p-3 mb-2 bg-success text-dark">
+                    column 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 p-3 mb-2 bg-primary text-dark">
+                    column 1
+                </div>
+                <div class="col-8 p-3 mb-2 bg-secondary text-dark">
+                    column 2
+                </div>
+                <div class="col-2 p-3 mb-2 bg-danger text-dark">
+                    column 3
+                </div>
+            </div>
+        </div>
+
+        <h5 class="pt-3">Grid with content width:</h5>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-auto p-3 mb-2 bg-warning text-dark"> coloumn 1 </div>
+                <div class="col-9 p-3 mb-2 bg-success text-dark "> column 2 </div>
+            </div>
+            <div class="row">
+                <div class="col-2 p-3 mb-2 bg-primary text-dark"> column 1 </div>
+                <div class="col-lg-auto p-3 mb-2 bg-secondary text-dark"> column 2 </div>
+                <div class="col-8 p-3 mb-2 bg-danger text-dark"> column 3 </div>
+            </div>
+        </div>
+
+        <h5 class="pt-3">Row coloumn Grid:</h5>
+        <div class="row row-cols-3">
+            <div class="col">
+                <div class="box">Text 1 </div>
+            </div>
+            <div class="col">
+                <div class="box">Text 2 </div>
+            </div>
+            <div class="col">
+                <div class="box">Text 3 </div>
+            </div>
+            <div class="col">
+                <div class="box">Text 4 </div>
+            </div>
+
+            <div class="col">
+                <div class="box">Text 5 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gutters -->
+    <div class="container pt-5">
+        <h1 class="text-center">Gutter System</h1>
+        <h5 class="pt-3">Horizontal gutters:</h5>
+        <div class="container text-center">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="pt-5">Vertical gutters:</h5>
+        <div class="container text-center">
+            <div class="row gx-5 gy-2 ">
+                <div class="col-6">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="pt-5">Row Coloumn gutters:</h5>
+        <div class="container text-center">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-5 g-4 g-lg-5">
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- layout utilities (display) -->
+    <div class="container pt-5">
+        <h1 class="text-center">Utility (Display)</h1>
+        <h5 class="pt-3">Inline display:</h5>
+        <div class="d-inline p-2 text-bg-info">Content</div>
+
+        <h5 class="pt-4">Block display:</h5>
+        <div class="d-block p-2 text-bg-info">Content</div>
+
+        <h5 class="pt-3">Hidden property:</h5>
+        <div class="d-xl-none d-lg-block text-center text-danger">Content 1</div>
+        <div class="d-lg-none d-md-block text-center text-danger">Content 2</div>
+        <div class="d-md-none d-sm-block text-center text-danger">Content 3</div>
+
+        <h5 class="pt-3">Print properties:</h5>
+        <div class="d-print-none">Screen Only (Hide on print only)</div>
+        <div class="d-none d-print-block">Print Only (Hide on screen only)</div>
+        <div class="d-lg-block d-print-block">Also show on screen and always show on print</div>
+    </div>
+
+
+</body>
+
+</html>

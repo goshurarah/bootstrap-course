@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(157, 143, 160);
+}
+.nav-link{
+    color: white;
+}

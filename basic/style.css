@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: thistle;
+}
+
+.box {
+    border: 1px solid grey;
+    background-color: aqua;
+}
+h1{
+    color: blueviolet;
+}
+h5{
+    color: chocolate;
+}
